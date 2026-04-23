@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "node ./node_modules/vite/bin/vite.js",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +13,9 @@
   "description": "",
   "dependencies": {
     "gsap": "^3.14.2",
-    "lenis": "^1.3.17",
+    "lenis": "^1.3.17"
+  },
+  "devDependencies": {
     "vite": "^7.3.1"
   }
 }
